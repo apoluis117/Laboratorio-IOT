@@ -1,0 +1,139 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laboratorio Remoto RELAB 2.0</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- link de  Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../static/css/estilo.css" rel="stylesheet" >
+    <script src="../static/js/funciones.js"></script>
+
+    <script>
+        $(function() {
+            $("#grupoTablas").tabs();
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="particles">
+        <div id="webcoderskull">
+        <div class="container-fluid">
+            <div>
+                <h1 class="parallax-text">
+                    LABORATORIO REMOTO DE IOT
+                </h1>
+            </div>
+        </div>
+            <div id="grupoTablas">
+                <ul>
+                    <li><a href="#tab-1">Cámara </a></li>
+                    <li><a href="#tab-2">Arquitectura</a></li>
+                    <li><a href="#tab-3">Dashboard</a></li>
+                    <li><a href="#tab-4">Diagrama Arduino UNO</a></li>
+                    <li><a href="#tab-5">Dashboard</a></li>
+                    <li><a href="#tab-6">Diagrama ESP32</a></li>
+                    <li><a href="#tab-7">Dashboard</a></li>
+                    <li><a href="#tab-8">Diagrama Raspberry Pi 4B</a></li>
+                    <li><a href="#tab-9">Raspberry Pi 4B</a></li>
+                    
+
+
+                    
+                </ul>
+
+                <div id="tab-1">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>Camara PICAMERA - CLASE</label></h2>
+                        <img src="http://192.168.0.20:8081/" width="1080px">
+                        <p>Cámara instalada en la clase <br>para verificar remotamente quien<br> no ordena los instrumentos.</p>
+                    </div>
+
+                </div>
+
+                <div id="tab-2">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>TOPOLOGÍA </label></h2>
+                        <img src="../static/images/LABORATORIO REMOTO IOT.png" width="1180px">
+                        <p>Cámara instalada en la clase<br>para verificar remotamente quien<br> no ordena los instrumentos</p>
+                    </div>
+                </div>
+
+                <div id="tab-3">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>DASHBOARD</label></h2>
+                        <iframe width="960" height="715" src="http://192.168.0.20:1880/ui/#!/0?socketid=8eMmVB5WXqwQkN07AAAC" frameborder="0" allowfullscreen></iframe>
+                        <p>Soluciones de Monitoreo y Control Remoto<br></p>
+                        <p><a href="https://iot.innovadomotics.com/iot-servicios"> realizados a la medida desde cero</a></p>
+                    </div>
+                </div>
+
+                <div id="tab-4">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>ARDUINO </label></h2>
+                        <img src="../static/images/ARDUINO.png" width="480px">
+                        <p>Cámara instalada en la clase<br>para verificar remotamente quien<br> no ordena los instrumentos</p>
+                    </div>
+                </div>
+
+                <div id="tab-5">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>DASHBOARD</label></h2>
+                        <iframe width="960" height="715" src="http://192.168.0.20:1880/ui/#!/0?socketid=7voJPYMA2S7MTXasAAAD" frameborder="0" allowfullscreen></iframe>
+                        <p>Soluciones de Monitoreo y Control Remoto<br></p>
+                        <p><a href="https://iot.innovadomotics.com/iot-servicios"> realizados a la medida desde cero</a></p>
+                    </div>
+                </div>
+
+                <div id="tab-6">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>ESP32 </label></h2>
+                        <img src="../static/images/ESP32.png" width="480px">
+                        <p>Cámara instalada en la clase<br>para verificar remotamente quien<br> no ordena los instrumentos</p>
+                    </div>
+                </div>
+
+                <div id="tab-7">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>DASHBOARD</label></h2>
+                        <iframe width="960" height="715" src="http://192.168.0.20:1880/ui/#!/0?socketid=8eMmVB5WXqwQkN07AAAC" frameborder="0" allowfullscreen></iframe>
+                        <p>Soluciones de Monitoreo y Control Remoto<br></p>
+                        <p><a href="https://iot.innovadomotics.com/iot-servicios"> realizados a la medida desde cero</a></p>
+                    </div>
+                </div>
+
+                <div id="tab-8">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>RASPBERRY PI 4B </label></h2>
+                        <img src="../static/images/RASPBERRY PI.png" width="480px">
+                        <p>Cámara instalada en la clase<br>para verificar remotamente quien<br> no ordena los instrumentos</p>
+                    </div>
+                </div>
+
+                <div id="tab-9">
+                    <div style="text-align: center; vertical-align: middle;">
+                        <h2><label>PANTALLA</label></h2>
+                        <iframe width="1310" height="1065" src="http://192.168.0.20:10000" frameborder="0" allowfullscreen></iframe>
+                        <p>Programación en IDE Arduino Y Thonny Python IDE <br></p>
+                        <p><a> realizados a la medida desde cero</a></p>
+                    </div>
+                </div>
+
+            </div>
+    
+            <footer>
+                <p>CURSOS DE LABORATORIO IOT</p>
+                <p><a  class="btn btn-primary" >Arduino, Raspberry, Módulos Wifi, Asesoría, Desarrollo de Proyectos</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

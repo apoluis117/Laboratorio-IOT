@@ -1,0 +1,40 @@
+#webcoderskull{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+canvas{
+    height:205%;
+    width: 100%;
+    background-color:#16a085;
+}
+#webcoderskull h1{
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+.parallax-text {
+  overflow: hidden;
+  background: #ffffffd9;
+  color: #3a3a3a;
+  font-size: 86px;
+  line-height: 86px;
+  font-weight: 700;
+  text-transform: uppercase;
+  mix-blend-mode: lighten;
+  margin-top: -15%;
+}
+
+
+
